@@ -66,6 +66,21 @@ function my_theme_register_required_plugins() {
 			'external_url' => 'https://github.com/thomasgriffin/New-Media-Image-Uploader', // If set, overrides default API URL and points to an external URL.
 		),
 		array(
+			'name' => 'Github Updater',
+			'slug' => 'github-updater',
+			'required' => true,
+			'source' => 'https://github.com/afragen/github-updater/archive/master.zip',
+			'external_url' => 'https://github.com/afragen/github-updater'
+		),
+		
+		array(
+			'name' => 'Github Link',
+			'slug' => 'github-link',
+			'required' => false,
+			'source' => 'https://github.com/szepeviktor/github-link/archive/master.zip',
+			'external_url' => 'https://github.com/szepeviktor/github-link'
+		),
+		array(
 			'name' => "Swipe Digital Cookie Widget",
 			"slug" => "swipe-cookie-widget",
 			"required" => false,
