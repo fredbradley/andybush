@@ -1,5 +1,6 @@
 <?php
 show_admin_bar(false);
+require_once(dirname(__FILE__).'/included-plugins/plugin-includes.php');
 function theme_name_scripts() {
 //	wp_enqueue_style( 'strap_style', get_template_directory_uri().'/style.css' );
 	wp_enqueue_style('google-fonts', 'http://fonts.googleapis.com/css?family=Vast+Shadow|Oswald|Playfair+Display:400,700|Playfair+Display+SC:400,700');
